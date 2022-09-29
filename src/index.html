@@ -4,15 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title></title>
+    <title>Countdown</title>
+    <link rel="stylesheet" href="./styles/main.css" />
   </head>
 
   <body>
-    <!-- This is where your HTML goes, feel free to delete example content :) -->
     <main class="container">
-      <img src="./images/hello.jpg">
-      <img src="/images/hello.jpg">
-      <img src="images/hello.jpg">  
+      <section>
+        <article>
+          <h2 id="heading">Christmas Countdown</h2>
+          <p id="text">
+            Christmas is an annual festival commemorating the birth of Jesus
+            Christ, observed primarily on December 25 as a religious and
+            cultural celebration among billions of people around the world.A
+            feast central to the Christian liturgical year, it is preceded by
+            the season of Advent or the Nativity Fast and initiates the season
+            of Christmastide, which historically in the West lasts twelve days
+            and culminates on Twelfth Night.
+          </p>
+          <button id="btn">GET NOTIFIED</button>
+        </article>
+        <aside id="Countdown">
+          <h3 class="clock" id="days">days</h3>
+          <h3 class="clock" id="hours">hours</h3>
+          <h3 class="clock" id="minutes">minutes</h3>
+          <h3 class="clock" id="seconds">seconds</h3>
+        </aside>
+      </section>
     </main>
+    <script type="module" src="./index.js"></script>
   </body>
 </html>
