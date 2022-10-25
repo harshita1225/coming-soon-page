@@ -3,55 +3,44 @@
 }
 
 body {
-  display: grid;
   font-family: sans-serif;
-}
-/*
-main {
-  margin: auto;
-  text-align: center;
-  animation: rota 10s infinite linear;
+  color: white;
 }
 
-@keyframes rota {
-  100% { transform: rotate(360deg) }
-}
-*/
 section {
-  max-height: fit-content;
   display: flex;
-  flex-direction: column;
-  margin: auto;
-  width: 50%;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 70rem;
+  max-height: 50rem;
   background-color: rgb(176, 143, 179);
-  display: flex;
-  flex-direction: row-reverse;
 }
 
 aside {
-  padding-top: 5rem;
   width: 40%;
-  background: url("https://i.pinimg.com/originals/df/5a/7b/df5a7b1716c5d77e503eb44dc1f66ebe.jpg");
-  font: white;
-  font-weight: 400;
+  background-image: url("https://cdn-ciojj.nitrocdn.com/vOsHXeUkltjQmzCaDuuLVWvgtlTwpSrS/assets/static/optimized/rev-cb7a3cf/wp-content/uploads/2022/05/hm-1-2-1-1-1.png");
+  opacity: 0.8;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 article {
   padding: 5rem;
   margin: 1rem;
-  width: 50%;
-  font: #444;
+  width: 60%;
   display: flex;
   justify-content: center;
-  display: flex;
   flex-direction: column;
 }
 
 #heading {
-  font: rgb(28, 28, 70);
+  color: purple;
+  font-size: 3rem;
 }
 
 #btn {

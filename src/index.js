@@ -14,7 +14,7 @@ button.addEventListener("click", () => {
 });
 
 //const currentYear = new Date.getFullYear();
-const newYearTime = new Date(`December 25 2022 00:00:00`);
+const newYearTime = new Date(`December 20 2022 00:00:00`);
 
 function updateCountDown() {
   const currTime = new Date();
