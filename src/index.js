@@ -1,5 +1,3 @@
-// All of your javascript should go here :)
-
 const days = document.getElementById("days");
 const hours = document.getElementById("hours");
 const minutes = document.getElementById("minutes");
@@ -13,7 +11,6 @@ button.addEventListener("click", () => {
   alert("Please subscribe to get notified!!");
 });
 
-//const currentYear = new Date.getFullYear();
 const newYearTime = new Date(`December 20 2022 00:00:00`);
 
 function updateCountDown() {
